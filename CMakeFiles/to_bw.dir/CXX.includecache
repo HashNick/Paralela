@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/main.cpp
+iostream
+-
+utils.h
+/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/utils.h
+string
+-
+stdio.h
+-
+preprocess.cpp
+/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/preprocess.cpp
+
+/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/preprocess.cpp
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/opencv.hpp
+-
+utils.h
+/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/utils.h
+cuda.h
+-
+cuda_runtime.h
+-
+string
+-
+
+/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/utils.h
+iostream
+-
+iomanip
+-
+cuda.h
+-
+cuda_runtime.h
+-
+cuda_runtime_api.h
+-
+cassert
+-
+cmath
+-
+

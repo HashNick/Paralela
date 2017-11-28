@@ -1,0 +1,28 @@
+Las imágenes a ser leidas tienen que llamarse:
+
+720.jpg    ->para la imagen de 720p
+1080.jpg   ->para la imagen de 1080p
+4k.jpg     ->para la imagen de 4kp
+
+---------------------------------------------------------
+
+Para ejecutar todo el programa, se necesita tener python 2.7 instalado y correr el
+siguiente comando, desde consola y posicionado en la carpeta enviada:
+
+py script_ejecutar_todo.py
+
+NOTA: Para que el script funcione es necesario que existan las 3 imagenes dentro de la carpeta.
+
+---------------------------------------------------------
+
+El Script genera un archivo llamado total.txt, donde se pueden observar los tiempos
+de ejecucion, esto por cada combinacion de imágen, kernel y cantidad de hilos.
+
+---------------------------------------------------------
+
+En el programa blur-effect.c se comentaron las lineas donde se muestra la imagen
+despues de aplciarle el efecto en pantalla, esto con el fin de ejectuar cada programa
+10 veces y obtener el promedio de los tiempos, si se desea ejectuar el programa con
+una combinacion especifica, bastan con esta linea de codigo:
+
+./blur-effect tamaño_de_la_imagen.jpg #_de_tamaño_del_kernel #_de_hilos

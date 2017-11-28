@@ -5,7 +5,7 @@ commands.getoutput( 'nvcc `pkg-config --cflags opencv` -o `basename blur-effect.
 kernel = [ 3, 5, 7, 9, 11, 13, 15 ]
 threads = [ 16, 32, 64, 128, 256, 512, 1024 ]
 blocks = [ 10, 15, 20, 25 ]
-img = [ '720' ]
+img = [ '720', '1080', '4k' ]
 
 f = open( 'total.txt', 'a' )
 

@@ -1,3 +1,0 @@
-/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/CMakeFiles/edit_cache.dir
-/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/CMakeFiles/rebuild_cache.dir
-/home/hashnick/Documentos/Semestre 9/Computación Paralela y Distribuida/Paralela/Practica 3/CMakeFiles/to_bw.dir
